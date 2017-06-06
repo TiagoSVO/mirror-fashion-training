@@ -33,3 +33,7 @@ figcaption {
     margin-top: 10px;
 }
 
+#centro-distribuicao {
+    margin: 0 auto;
+    width: 550px;
+}
