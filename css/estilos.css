@@ -1,6 +1,11 @@
+
 body {
     color: #333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header {
+    position: relative;
 }
 
 .sacola {
@@ -11,6 +16,12 @@ body {
     text-align: right;
     width: 140px;
     padding-top: 8px;
+}
+
+.menu-opcoes {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .menu-opcoes ul {
