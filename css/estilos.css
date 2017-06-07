@@ -143,9 +143,12 @@ footer .container {
 }
 
 .social {
-    position: absolute;
+    /*position: absolute;
     top: 12px;
-    right: 0;
+    right: 0;*/
+
+    position: relative;
+    float: right;
 }
 
 .social li {
