@@ -137,6 +137,28 @@ header {
 
     margin: 2px;
     padding-bottom: 10px;
+
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0px #333;
+    transition: background-color 0.7s, box-shadouw 0.7s, transform 0.7s ease-in;
+}
+
+.painel li:hover {
+    border: 1px solid #999;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px #333;
+    transition: background-color 0.7s, box-shadouw 0.7s, transform 0.7s;
+    box-sizing: content-box;
+    width: 138px;
+    transform: scale(1.2) rotate(-365deg);
+}
+
+.painel li:nth-child(2n):hover {
+    transform: scale(1.2) rotate(365deg);
+}
+
+.painel img {
+    width: 100%;
 }
 
 .painel h2 {
